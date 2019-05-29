@@ -38,20 +38,20 @@ export class AppComponent implements OnInit {
     this.dataSource.sort = this.sort;
   }
 
-  setActive1(): void {
+  setActiveWeightColumn(): void {
     this.activeSortColumn = 'weight';
   }
 
-  setActive2(): void {
+  setActiveSymbolColumn(): void {
     this.activeSortColumn = 'name';
   }
 
-  setActive3(): void {
+  setActiveASC(): void {
     this.activeSortOrder = 'asc';
 
   }
 
-  setActive4(): void {
+  setActiveDESC(): void {
     this.activeSortOrder = 'desc';
   }
 }
